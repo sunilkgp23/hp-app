@@ -1,0 +1,46 @@
+.notification-list {
+    position: fixed;
+    z-index: 100;
+    background-color: lightblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2px solid darkblue;
+    border-radius: 18px;
+    box-shadow: 5px 5px blueviolet;
+}
+
+.content-box {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.readMsg {
+    background-color: lightgray
+}
+
+.unreadMsg {
+    font-weight: bold;
+}
+
+.list-notes {
+    padding: 0px
+}
+
+.closeButton {
+    background-color: transparent;
+    border: none;
+    top: -10px;
+    position: relative;
+    left: 10px;
+}
+
+.markAllButton {
+    border-radius: 10px;
+    font-size: 9px;
+    border: 1px solid green;
+}
